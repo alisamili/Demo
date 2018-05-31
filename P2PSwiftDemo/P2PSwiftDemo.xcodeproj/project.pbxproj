@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0462C5C620BC2F81006F9FFF /* P2PBaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462C5C520BC2F81006F9FFF /* P2PBaseWebViewController.swift */; };
+		0462C5C820C0328A006F9FFF /* P2PRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462C5C720C0328A006F9FFF /* P2PRefreshHeader.swift */; };
+		0462C5CA20C05455006F9FFF /* P2PRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462C5C920C05455006F9FFF /* P2PRefreshFooter.swift */; };
+		0462C5CC20C0571A006F9FFF /* P2PAlertLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462C5CB20C0571A006F9FFF /* P2PAlertLabel.swift */; };
 		2D25B40920B409F200AC9E0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25B40820B409F200AC9E0A /* AppDelegate.swift */; };
 		2D25B40B20B409F200AC9E0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25B40A20B409F200AC9E0A /* ViewController.swift */; };
 		2D25B40E20B409F200AC9E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D25B40C20B409F200AC9E0A /* Main.storyboard */; };
@@ -146,6 +149,9 @@
 
 /* Begin PBXFileReference section */
 		0462C5C520BC2F81006F9FFF /* P2PBaseWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PBaseWebViewController.swift; sourceTree = "<group>"; };
+		0462C5C720C0328A006F9FFF /* P2PRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PRefreshHeader.swift; sourceTree = "<group>"; };
+		0462C5C920C05455006F9FFF /* P2PRefreshFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PRefreshFooter.swift; sourceTree = "<group>"; };
+		0462C5CB20C0571A006F9FFF /* P2PAlertLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PAlertLabel.swift; sourceTree = "<group>"; };
 		2D25B40520B409F200AC9E0A /* P2PSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P2PSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D25B40820B409F200AC9E0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D25B40A20B409F200AC9E0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -681,6 +687,9 @@
 		2D25B4C620B4158500AC9E0A /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				0462C5C720C0328A006F9FFF /* P2PRefreshHeader.swift */,
+				0462C5C920C05455006F9FFF /* P2PRefreshFooter.swift */,
+				0462C5CB20C0571A006F9FFF /* P2PAlertLabel.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -1176,6 +1185,7 @@
 				2D2F311A20B56D3D00BBC346 /* Response.swift in Sources */,
 				2D2F311420B56D3D00BBC346 /* DispatchQueue+Alamofire.swift in Sources */,
 				2D2F30EB20B56D3C00BBC346 /* SDWebImageFrame.m in Sources */,
+				0462C5C820C0328A006F9FFF /* P2PRefreshHeader.swift in Sources */,
 				2D25B40B20B409F200AC9E0A /* ViewController.swift in Sources */,
 				2D25B47E20B40A9C00AC9E0A /* MainViewController.swift in Sources */,
 				2D2F30F320B56D3C00BBC346 /* UIImage+GIF.m in Sources */,
@@ -1190,6 +1200,7 @@
 				2D761C1C20B7E6CA00CB69C0 /* P2PNetworkTool.swift in Sources */,
 				2D2F310A20B56D3C00BBC346 /* UIScrollView+MJExtension.m in Sources */,
 				2D2F30E420B56D3C00BBC346 /* SDImageCacheConfig.m in Sources */,
+				0462C5CC20C0571A006F9FFF /* P2PAlertLabel.swift in Sources */,
 				2D2F310C20B56D3C00BBC346 /* UIView+MJExtension.m in Sources */,
 				2D2F30FA20B56D3C00BBC346 /* MJRefreshBackFooter.m in Sources */,
 				2D2F311920B56D3D00BBC346 /* Request.swift in Sources */,
@@ -1201,6 +1212,7 @@
 				2D25B47C20B40A9C00AC9E0A /* InvestViewController.swift in Sources */,
 				2D2F312A20B56D3D00BBC346 /* SDCycleScrollView.m in Sources */,
 				2D2F310F20B56D3D00BBC346 /* SwiftyJSON.swift in Sources */,
+				0462C5CA20C05455006F9FFF /* P2PRefreshFooter.swift in Sources */,
 				2D2F30E120B56D3C00BBC346 /* NSImage+WebCache.m in Sources */,
 				2D25B4CA20B416DE00AC9E0A /* UIBarButtonItem+Extension.swift in Sources */,
 				2D2F30EC20B56D3C00BBC346 /* SDWebImageGIFCoder.m in Sources */,

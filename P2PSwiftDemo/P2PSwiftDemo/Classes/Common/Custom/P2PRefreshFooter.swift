@@ -10,12 +10,25 @@ import UIKit
 
 class P2PRefreshFooter: MJRefreshBackGifFooter {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    override func prepare() {
+        
+            super.prepare()
+            var idleImages = [UIImage]()
+            for i in 1...60 {
+                let image = UIImage(named: "reload_0\(i)")
+                idleImages.append(image!)
+            }
+            self.setImages(idleImages, for: .idle)
+            
+            var refreshImages = [UIImage]()
+            for i in 1...6 {
+                let image = UIImage(named: "reload_refresh0\(i)")
+                refreshImages.append(image!)
+            }
+            self.setImages(refreshImages, for: .pulling)
+            self.setImages(refreshImages, for: .refreshing)
+            
+        
     }
-    */
 
 }

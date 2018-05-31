@@ -10,12 +10,20 @@ import UIKit
 
 class P2PAlertLabel: UIView {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    convenience init(frame: CGRect, Text text:String, DIsmissTime dismissTime:Int) {
+        self.init(frame: frame)
+        
+        let  label = P2PUtil.createLabelWith(Text: text, Frame: frame, TextColor: UIColor.white, Font: 14, TextAligtment: .center)
+        label.backgroundColor = UIColor.black.withAlphaComponent(0.7)
+        label.layer.cornerRadius = 10
+        label.layer.masksToBounds = true
+        label.isHidden = true
+        self.addSubview(label)
+        
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime(uptimeNanoseconds: UInt64(dismissTime)), execute: {
+            self.removeFromSuperview()
+        })
+        
     }
-    */
 
 }
