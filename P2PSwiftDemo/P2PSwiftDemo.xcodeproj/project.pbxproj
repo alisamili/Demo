@@ -11,6 +11,7 @@
 		0462C5C820C0328A006F9FFF /* P2PRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462C5C720C0328A006F9FFF /* P2PRefreshHeader.swift */; };
 		0462C5CA20C05455006F9FFF /* P2PRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462C5C920C05455006F9FFF /* P2PRefreshFooter.swift */; };
 		0462C5CC20C0571A006F9FFF /* P2PAlertLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462C5CB20C0571A006F9FFF /* P2PAlertLabel.swift */; };
+		0462C5CE20CA58AF006F9FFF /* P2PSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462C5CD20CA58AF006F9FFF /* P2PSegment.swift */; };
 		2D25B40920B409F200AC9E0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25B40820B409F200AC9E0A /* AppDelegate.swift */; };
 		2D25B40B20B409F200AC9E0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25B40A20B409F200AC9E0A /* ViewController.swift */; };
 		2D25B40E20B409F200AC9E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D25B40C20B409F200AC9E0A /* Main.storyboard */; };
@@ -152,6 +153,7 @@
 		0462C5C720C0328A006F9FFF /* P2PRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PRefreshHeader.swift; sourceTree = "<group>"; };
 		0462C5C920C05455006F9FFF /* P2PRefreshFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PRefreshFooter.swift; sourceTree = "<group>"; };
 		0462C5CB20C0571A006F9FFF /* P2PAlertLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PAlertLabel.swift; sourceTree = "<group>"; };
+		0462C5CD20CA58AF006F9FFF /* P2PSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PSegment.swift; sourceTree = "<group>"; };
 		2D25B40520B409F200AC9E0A /* P2PSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P2PSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D25B40820B409F200AC9E0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D25B40A20B409F200AC9E0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -690,6 +692,7 @@
 				0462C5C720C0328A006F9FFF /* P2PRefreshHeader.swift */,
 				0462C5C920C05455006F9FFF /* P2PRefreshFooter.swift */,
 				0462C5CB20C0571A006F9FFF /* P2PAlertLabel.swift */,
+				0462C5CD20CA58AF006F9FFF /* P2PSegment.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -1247,6 +1250,7 @@
 				2D2F312520B56D3D00BBC346 /* TAAbstractDotView.m in Sources */,
 				2D2F30FD20B56D3C00BBC346 /* MJRefreshHeader.m in Sources */,
 				2D2F312720B56D3D00BBC346 /* TADotView.m in Sources */,
+				0462C5CE20CA58AF006F9FFF /* P2PSegment.swift in Sources */,
 				2D2F30F120B56D3C00BBC346 /* UIButton+WebCache.m in Sources */,
 				2D2F311720B56D3D00BBC346 /* Notifications.swift in Sources */,
 				2D2F30FE20B56D3C00BBC346 /* MJRefreshAutoGifFooter.m in Sources */,

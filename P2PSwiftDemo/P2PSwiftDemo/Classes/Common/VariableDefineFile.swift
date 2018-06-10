@@ -29,6 +29,7 @@ let STATUSBAR_HEIGHT:CGFloat = IS_IPHONE_X == true ? 44.0 : 20.0
  * 颜色
  */
 extension UIColor {
+    static let tintColor = UIColor(red: 164.0/255, green: 0.0/255, blue: 0.0/255, alpha: 1.0)
     static let initColor = UIColor(red: 164.0/255, green: 0.0/255, blue: 0.0/255, alpha: 1.0)
     static let tabbarInitColor = UIColor(red: 237.0/255, green: 31.0/255, blue: 59.0/255, alpha: 1.0)
     static let mainWhiteColor = UIColor(red: 242.0/255, green: 242.0/255, blue: 242.0/255, alpha: 1.0)
