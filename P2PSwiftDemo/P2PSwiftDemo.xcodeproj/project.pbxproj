@@ -12,6 +12,7 @@
 		0462C5CA20C05455006F9FFF /* P2PRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462C5C920C05455006F9FFF /* P2PRefreshFooter.swift */; };
 		0462C5CC20C0571A006F9FFF /* P2PAlertLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462C5CB20C0571A006F9FFF /* P2PAlertLabel.swift */; };
 		0462C5CE20CA58AF006F9FFF /* P2PSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462C5CD20CA58AF006F9FFF /* P2PSegment.swift */; };
+		0464DC7120CED59300CE469E /* P2PProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464DC7020CED59300CE469E /* P2PProgressView.swift */; };
 		2D25B40920B409F200AC9E0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25B40820B409F200AC9E0A /* AppDelegate.swift */; };
 		2D25B40B20B409F200AC9E0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25B40A20B409F200AC9E0A /* ViewController.swift */; };
 		2D25B40E20B409F200AC9E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D25B40C20B409F200AC9E0A /* Main.storyboard */; };
@@ -154,6 +155,7 @@
 		0462C5C920C05455006F9FFF /* P2PRefreshFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PRefreshFooter.swift; sourceTree = "<group>"; };
 		0462C5CB20C0571A006F9FFF /* P2PAlertLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PAlertLabel.swift; sourceTree = "<group>"; };
 		0462C5CD20CA58AF006F9FFF /* P2PSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PSegment.swift; sourceTree = "<group>"; };
+		0464DC7020CED59300CE469E /* P2PProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PProgressView.swift; sourceTree = "<group>"; };
 		2D25B40520B409F200AC9E0A /* P2PSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P2PSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D25B40820B409F200AC9E0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D25B40A20B409F200AC9E0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -693,6 +695,7 @@
 				0462C5C920C05455006F9FFF /* P2PRefreshFooter.swift */,
 				0462C5CB20C0571A006F9FFF /* P2PAlertLabel.swift */,
 				0462C5CD20CA58AF006F9FFF /* P2PSegment.swift */,
+				0464DC7020CED59300CE469E /* P2PProgressView.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -1259,6 +1262,7 @@
 				2D2F312020B56D3D00BBC346 /* TaskDelegate.swift in Sources */,
 				2D2F30F920B56D3C00BBC346 /* MJRefreshAutoFooter.m in Sources */,
 				2D2F30E620B56D3C00BBC346 /* SDWebImageCoderHelper.m in Sources */,
+				0464DC7120CED59300CE469E /* P2PProgressView.swift in Sources */,
 				2D2F312D20B56D3D00BBC346 /* SVProgressAnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
